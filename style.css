@@ -1,0 +1,155 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  height: 100vh;
+ background: #edeaff; 
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-family: "Courier Prime",sans-serif;
+}
+.stopwatch{
+  text-align: center;
+  max-width: 650px;
+  width: 90%;
+background-color: #222;
+height: 50%;
+color: #fff;
+background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)) ,url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHKktoWggFPyVIWrECV8l3qLjaql1K_y8eNw&s);
+background-repeat: no-repeat;
+background-size: cover;
+padding: 30px 0;
+border-radius: 20px;
+overflow: auto;
+
+}
+.buttons{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.button-img{
+  width: 50px;
+  margin-right: 25px;
+  margin-left: 25px;
+  cursor: pointer;
+} 
+.stopwatch h1{
+  margin: 15px 50px;
+  font-size: 50px;
+  font-weight: 400;
+}
+#play-pause{
+  width:80px;
+  margin-right: 25px;
+  margin-left: 25px;
+  cursor: pointer;
+}
+@media(max-width: 400px){
+  .stopwatch h1{
+    font-size: 40px;
+  }
+  .button-img{
+    width: 40px;
+  }
+  #play-pause{
+    width: 50px;
+  }
+
+}
+@media(max-width: 335px){
+  .stopwatch h1{
+    font-size: 35px;
+  }
+  .button-img{
+    width: 35px;
+  }
+  #play-pause{
+    width: 45px;
+  }
+}
+@media(max-width: 300px){
+  .stopwatch h1{
+    font-size: 30px;
+margin: 15px 25px;
+  }
+  .button-img{
+    width: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  #play-pause{
+    width: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
+@media(max-width: 230px){
+  .stopwatch h1{
+    font-size: 25x;
+    margin: 15px 15px;
+  }
+  .button-img{
+    width: 25px;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  #play-pause{
+    width: 35px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+ 
+}
+@media(max-height: 500px){
+  .stopwatch{
+    height: 60%;
+  }
+}
+@media(max-height: 400px){
+  .stopwatch{
+    height: 70%;
+  }
+}
+@media(max-height: 350px){
+  .stopwatch{
+    height: 75%;
+  }
+}
+@media(max-height: 315px){
+  .stopwatch{
+    height: 80%;
+  }
+}
+@media(max-height: 290px){
+  .stopwatch{
+    height: 90%;
+  }
+}
+@media(max-height: 260px){
+  .stopwatch{
+    height: 95%;
+  }
+}
+@media(max-height: 250px){
+  .stopwatch{
+    height: 100%;
+  }
+}
+.lap{
+  font-size: 15px;
+  margin-top: 10px;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  padding: 5px 10px;
+  flex-wrap: wrap;
+
+}
+.lap p{
+  margin-bottom: 5px;
+  margin-right: 06px;
+}
