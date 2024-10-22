@@ -140,13 +140,14 @@ margin: 15px 25px;
   }
 }
 .lap{
-  font-size: 15px;
+  font-size: 20px;
   margin-top: 10px;
   display: flex;
   align-items: start;
   justify-content: start;
   padding: 5px 10px;
   flex-wrap: wrap;
+  flex-direction: column;
 
 }
 .lap p{
